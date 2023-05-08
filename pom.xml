@@ -18,6 +18,7 @@
 	</properties>
 
 	<dependencies>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -86,5 +87,11 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	<plugin>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.9.0.2155</version>
+
+</plugin>
 
 </project>
